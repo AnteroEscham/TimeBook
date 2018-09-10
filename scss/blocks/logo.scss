@@ -1,0 +1,13 @@
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 35px;
+    color: $brown;
+    font-weight: bold;
+
+    &__icon {
+        fill: $blue;
+        
+    }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+        width: 100%;
+        overflow: hidden;
+        background-color: $grey;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+}
+
+.container {
+        max-width: 1920px;
+        margin: 0 auto;
+        width: 95%;
+}
+
+.main {
+        flex: 1; 
+}
+
+.content {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+}
+

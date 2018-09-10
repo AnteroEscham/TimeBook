@@ -1,0 +1,25 @@
+.panel {
+    min-height: 500px;
+
+    &__title {
+        font-size: 17px;
+        margin-bottom: 10px;
+        // opacity: 0.7;
+        color: $brown;
+    }
+
+    &__block {
+        background-color: #fff;
+        height: 100%;
+        border-top: 5px solid $blue;
+    }
+
+    &--left, &--right {
+        width: 340px;
+    }
+
+    &--center {
+        flex-grow: 1;
+        margin: 0 25px;
+    }
+}
