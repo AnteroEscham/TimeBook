@@ -1,0 +1,69 @@
+.book-card {
+    display: flex;
+    border-bottom: 1px solid $grey;
+    padding: 10px;
+
+    &:hover {
+        .book-card__controls {
+            opacity: 1;
+        }
+    }
+
+    &__content {
+        width: 90%;
+    }
+
+    &__controls {
+        width: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        transition: opacity 0.1s;
+        opacity: 0;
+    }
+
+    &__control-icon {
+        width: 17px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+        margin-bottom: 5px;
+
+        &--pencil {
+            fill: rgba( #000000, 0.8);
+            opacity: 0.4;
+        }
+
+        &--trash {
+            fill: $red;
+            opacity: 0.4;
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    &__author {
+        margin-bottom: 5px;
+    }
+
+    &__author, &__name {
+        display: flex;
+        align-items: center;
+        color: rgba( #000000, 0.8);
+    }
+
+    &__author-pic, &__name-pic {
+        margin-right: 10px;
+        fill: $blue;
+        width: 20px;
+    }
+
+    &__bottom {
+        margin-top: 11px;
+    }
+
+    &__pages {
+        font-size: 12px;
+    }
+}

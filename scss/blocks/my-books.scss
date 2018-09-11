@@ -1,0 +1,21 @@
+.my-books {
+
+    &__controls {
+        display: flex;
+        padding: 10px;
+        border-bottom: 1px solid $grey;
+    }
+
+    &__plus {
+        margin-left: auto;
+    }
+
+    &__books {
+        // ..
+    }
+
+    &__list {
+        // overflow-y: scroll;
+        // height: 100%;
+    }
+}

@@ -10,12 +10,13 @@ $blue: #5284BF;
 $font: 'Fira Sans', sans-serif;
 
 //config
-@import "config/mixins.scss";
-@import "config/base.scss";
-@import "config/normalize.scss";
+@import "config/mixins";
+@import "config/base";
+@import "config/normalize";
+@import "config/ui";
 
 //layout
-@import "layout/adjustment.scss";
+@import "layout/adjustment";
 
 //blocks
 @import "blocks/logo";
@@ -24,3 +25,4 @@ $font: 'Fira Sans', sans-serif;
 @import "blocks/my-books";
 @import "blocks/current-books";
 @import "blocks/complete-books";
+@import "blocks/book-card";

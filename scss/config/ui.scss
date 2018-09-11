@@ -1,0 +1,9 @@
+.plus {
+    fill: $red;
+    cursor: pointer;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: rotate(180deg)
+    }
+}

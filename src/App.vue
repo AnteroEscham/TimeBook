@@ -18,7 +18,120 @@
 
               <div class="panel panel--left my-books">
                 <div class="panel__title">Add books</div>
-                <div class="panel__block"></div>
+                <div class="panel__block">
+                  <div class="my-books__controls">
+                    <box-icon class="my-books__plus plus" size="md" name='plus-circle'></box-icon>
+                  </div>
+                  <div class="my-books__books">
+                    <ul class="my-books__list">
+                      <li class="my-books__item book-card">
+                        <div class="book-card__content">
+                          <div class="book-card__author">
+                            <box-icon class="book-card__author-pic" size="cssSize" name='user-detail'></box-icon>
+                            George Martin
+                          </div>
+                          <div class="book-card__name">
+                            <box-icon class="book-card__name-pic" size="cssSize" name='book-bookmark'></box-icon>
+                            Game of Thrones
+                          </div>
+                          <div class="book-card__bottom">
+                            <div class="book-card__pages">
+                              390 pages
+                            </div>
+                          </div>
+                        </div>
+                        <div class="book-card__controls">
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--pencil" name='pencil'></box-icon>
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--trash" name='trash'></box-icon>
+                        </div>
+                      </li>
+                      <li class="my-books__item book-card">
+                        <div class="book-card__content">
+                          <div class="book-card__author">
+                            <box-icon class="book-card__author-pic" size="cssSize" name='user-detail'></box-icon>
+                            George Martin
+                          </div>
+                          <div class="book-card__name">
+                            <box-icon class="book-card__name-pic" size="cssSize" name='book-bookmark'></box-icon>
+                            Game of Thrones
+                          </div>
+                          <div class="book-card__bottom">
+                            <div class="book-card__pages">
+                              390 pages
+                            </div>
+                          </div>
+                        </div>
+                        <div class="book-card__controls">
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--pencil" name='pencil'></box-icon>
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--trash" name='trash'></box-icon>
+                        </div>
+                      </li>
+                      <li class="my-books__item book-card">
+                        <div class="book-card__content">
+                          <div class="book-card__author">
+                            <box-icon class="book-card__author-pic" size="cssSize" name='user-detail'></box-icon>
+                            George Martin
+                          </div>
+                          <div class="book-card__name">
+                            <box-icon class="book-card__name-pic" size="cssSize" name='book-bookmark'></box-icon>
+                            Game of Thrones
+                          </div>
+                          <div class="book-card__bottom">
+                            <div class="book-card__pages">
+                              390 pages
+                            </div>
+                          </div>
+                        </div>
+                        <div class="book-card__controls">
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--pencil" name='pencil'></box-icon>
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--trash" name='trash'></box-icon>
+                        </div>
+                      </li>
+                      <li class="my-books__item book-card">
+                        <div class="book-card__content">
+                          <div class="book-card__author">
+                            <box-icon class="book-card__author-pic" size="cssSize" name='user-detail'></box-icon>
+                            George Martin
+                          </div>
+                          <div class="book-card__name">
+                            <box-icon class="book-card__name-pic" size="cssSize" name='book-bookmark'></box-icon>
+                            Game of Thrones
+                          </div>
+                          <div class="book-card__bottom">
+                            <div class="book-card__pages">
+                              390 pages
+                            </div>
+                          </div>
+                        </div>
+                        <div class="book-card__controls">
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--pencil" name='pencil'></box-icon>
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--trash" name='trash'></box-icon>
+                        </div>
+                      </li>
+                      <li class="my-books__item book-card">
+                        <div class="book-card__content">
+                          <div class="book-card__author">
+                            <box-icon class="book-card__author-pic" size="cssSize" name='user-detail'></box-icon>
+                            George Martin
+                          </div>
+                          <div class="book-card__name">
+                            <box-icon class="book-card__name-pic" size="cssSize" name='book-bookmark'></box-icon>
+                            Game of Thrones
+                          </div>
+                          <div class="book-card__bottom">
+                            <div class="book-card__pages">
+                              390 pages
+                            </div>
+                          </div>
+                        </div>
+                        <div class="book-card__controls">
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--pencil" name='pencil'></box-icon>
+                          <box-icon size="cssSize" class="book-card__control-icon book-card__control-icon--trash" name='trash'></box-icon>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
               <div class="panel panel--center current-books">
