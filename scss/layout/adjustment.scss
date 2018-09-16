@@ -3,7 +3,7 @@
         overflow: hidden;
         background-color: $grey;
         display: flex;
-        min-height: 100vh;
+        height: 100%;
         flex-direction: column;
         // background: $grey url('../src/assets/img/bg.png');
 }
@@ -22,6 +22,5 @@
         margin-top: 80px;
         display: flex;
         justify-content: space-between;
-        height: 100%;
 }
 

@@ -1,0 +1,15 @@
+.current-book {
+
+    &__content {
+        display: flex;
+
+    }
+
+    &__left, &__right {
+        width: 50%;
+    }
+
+    &__left {
+        border-right: 1px solid $grey;
+    }
+}

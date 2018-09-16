@@ -2,20 +2,17 @@
 
     &__controls {
         display: flex;
-        padding: 10px;
-        border-bottom: 1px solid $grey;
     }
 
     &__plus {
         margin-left: auto;
     }
 
-    &__books {
-        // ..
+    &__list {
+        
     }
 
-    &__list {
-        // overflow-y: scroll;
-        // height: 100%;
+    &__search {
+        margin-right: 20px;
     }
 }
